@@ -1,0 +1,11 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Title</h1>
+    <p class="lead">@Model.Description</p>
+    <hr />
+    <p>This application is using an External Service using the <i>ClientID</i> - <b>@Model.ClientId</b> and <i>API Key</i> - <b>@Model.ApiKey</b></p>
+</div>
